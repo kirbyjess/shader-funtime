@@ -1,0 +1,7 @@
+{% if trek %}
+  <ul>
+    <li><a href="/trek/{{ trek.id }}/">{{ trek.trek_title }}</a></li>
+  </ul>
+{% else %}
+  <p>No specific trek found.</p>
+{% endif %}

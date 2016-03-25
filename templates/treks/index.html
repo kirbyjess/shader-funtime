@@ -1,0 +1,10 @@
+{% if trek_list %}
+    <ul>
+    {% for trek in trek_list %}
+        <li><a href="/trek/{{ trek.id }}/">{{ trek.trek_title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No treks are available.</p>
+{% endif %}
+

@@ -1,2 +1,2 @@
-# shader-funtime
-Learning and Mini Projects
+# TrekTrack
+Traveling Helper Mini Project
